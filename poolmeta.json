@@ -1,6 +1,7 @@
 {
-  "name": "Garden_Pool",
+  "name": "Garden",
   "ticker": "EDEN",
   "description": "Cardano Paradise",
-  "homepage": "https://garden-pool.com"
+  "homepage": "https://garden-pool.com",
+  "nonce": "1595882142"
 }
