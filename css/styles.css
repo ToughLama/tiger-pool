@@ -54,6 +54,7 @@ html {
 
 .logo_component {
   width: 100%;
+  margin: auto;
 }
 
 body {
@@ -68,7 +69,7 @@ body {
 .specification-card-container {
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 16px 0;
   max-width: 100vw;
 }
@@ -81,6 +82,11 @@ body {
   font-size: 1.3rem;
   width: fit-content;
 }
+
+.individual-card .server-spec {
+  height: 100%;
+}
+
 .individual-card .card-header {
   min-height: 70px;
   color: var(--main-teal);
@@ -95,13 +101,17 @@ body {
     flex-direction: column;
   }
 
+  .individual-card {
+    max-width: 100%;
+  }
+
   .logo-container {
-    width: 80%;
-    margin-top: 80px;
-    left: calc(50% - 40%);
-    margin-bottom: 100px;
+    width: 70%;
+    margin: auto;
     overflow: hidden;
-    height: 690px;
+  }
+  .maintenance-title {
+    padding: 5px;
   }
 }
 
@@ -117,9 +127,6 @@ body {
   }
 
   .logo-container {
-    margin-bottom: 20px;
-
-    height: 500px;
   }
 }
 
@@ -177,6 +184,7 @@ a {
   padding: 12px;
   color: var(--dark-teal);
   font-size: 1.5rem;
+  text-align: center;
 }
 
 iframe {
@@ -226,7 +234,7 @@ iframe {
   transition: 0.3s all;
 
   position: absolute;
-  top: 0;
+  top: 70px;
   cursor: pointer;
   left: 180px;
   width: 48px;
